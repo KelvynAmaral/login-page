@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root{
+
+    --cor-primaria: #ffffff;
+    --cor-secundaria: #7C3CCE;
+    --cor-terciaria: #C08FFF;
+    --fonte-principal: 'Inter';
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: absolute;
+    width: 540px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
+
+}
