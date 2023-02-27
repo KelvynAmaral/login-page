@@ -8,6 +8,7 @@
     --cor-secundaria: #7C3CCE,#C08FFF;
     --cor-terciaria: #909090;
     --cor-quarternaria: #000000;
+    --cor-borda: #E2E6ED;
     --fonte-principal: 'Inter';
     }
 
@@ -16,19 +17,23 @@
     padding: 0;
 }
 body{
-    width: 1024px;
+    width: 1204px;
     height: 720px;
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 50% 50%;
     font-family: var(--fonte-principal);
     
 }
 .primeira__imagem{
-    padding: 2em;
+    padding: 3.5em;
 }
  
 .bemvindo{
-    padding: 3em; 
+    padding-top: 5em;
+    padding-left: 5em; 
+    font-family: var(--fonte-principal);
+   
+   
 }
 
 .bemvindo_conteudo_titulo{
@@ -39,7 +44,7 @@ body{
    
 }
 .bemvindo_conteudo_texto{
-    
+    padding-top: 1em;
     font-weight: 400;
     font-size: 26px;
     color: var(--cor-terciaria);
@@ -50,8 +55,47 @@ body{
     font-family: var(--fonte-principal);
     font-size: 18px;
     font-weight: 500;
+    padding: 5em;
+     
+}
+
+.ckeck_email{
+    padding-bottom: 3%;
+ 
+}
+
+.check_email_caixa{
+    
+    border: 2px solid var(--cor-borda);
+    border-radius: 8px;
+    color: var(--cor-terciaria);
+    padding: 1em;
+    width: 80%;
+}
+
+.ckeck_password{
+    padding: 3%;
+
+}
+.check_email_password{
+    
+    border: 2px solid var(--cor-borda);
+    border-radius: 8px;
+    color: var(--cor-terciaria);
+    padding: 1em;
+    width: 80%;
+}
+.btn-sign-up{
    
 }
+.btn-sign-up-google{
+
+}
+
+
+
+
+
 
 
 
