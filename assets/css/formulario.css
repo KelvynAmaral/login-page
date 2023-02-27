@@ -1,0 +1,88 @@
+.card__login{
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5em; 
+}
+
+.ckeck_password{
+    padding-bottom: 3%;
+}
+
+.check_email_caixa{
+    margin: 1em 0 2em 0;
+    border: 2px solid var(--cor-borda);
+    border-radius: 8px;
+    color: var(--cor-terciaria);
+    padding: 1em;
+    width: 400px;
+}
+
+.check_email_password{
+    margin: 1em 0 2em 0;
+    border: 2px solid var(--cor-borda);
+    border-radius: 8px;
+    color: var(--cor-terciaria);
+    padding: 1em;
+    width: 400px;
+}
+.checkbox{
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+}
+.ckeckbox__texto{
+    margin: 0 0 0 0.5em ;
+}
+.ckeckbox__texto_secundario{
+    margin: 0 0 0 6.5em;
+    color: #7C3CCE;
+}
+
+
+.btn-sign-up{
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    color: var(--cor-primaria);
+    border: none;
+    margin: 1em 0 1em 0;
+    padding: 10px;
+    background: #7C3CCE;
+    width: 430px;
+    border-radius: 8px;
+
+}
+.btn-sign-up:hover{
+    background-color: #C08FFF;
+
+}
+.btn-sign-up-google{
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    border: 2px solid var(--cor-borda);
+    margin: 0 0 1em 0;
+    padding: 10px;
+    background: var(--cor-primaria);
+    width: 430px;;
+    border-radius: 8px;
+}
+.btn-sign-up-google:hover{
+    background-color: #E2E6ED;
+
+}
+.sign-up{
+    font-family: var(--fonte-principal); 
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 1em;
+}
+.sign_texto{
+    color: #7E7E7E;
+    margin: 0 0 0 7em;
+}
+.sign_texto_secundario{
+    color: var(--cor-secundaria);
+    margin: 0 0 0 2em;
+}

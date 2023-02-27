@@ -1,0 +1,28 @@
+.primeira__imagem{
+    padding-top: 3em;
+    padding-left: 3em;
+}
+ 
+.bemvindo{
+    padding-top: 3em;
+    padding-left: 5em; 
+    font-family: var(--fonte-principal);
+   
+   
+}
+
+.bemvindo_conteudo_titulo{
+    font-weight: 620;
+    font-size: 36px;
+    font-style: normal;
+   
+   
+}
+.bemvindo_conteudo_texto{
+    padding-top: 1em;
+    font-weight: 400;
+    font-size: 26px;
+    color: var(--cor-terciaria);
+    
+
+}
