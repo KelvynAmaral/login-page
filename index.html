@@ -6,48 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="cabecalho">   
-    </header>
-    <main class="bemvindo">
-        <section class="left">
-            <img src="./assets/img/untitled-UI.svg" alt="">
-            <section class="bemvindo_conteudo">
-                <h1 class="bemvindo_conteudo_titulo">Welcome back!</h1>
-                <p class="bemvindo_conteudo_texto">Welcome back! Please, Enter your details</p>
-            </section>
-            <form action="">
-                <p>Email</p>
+       <!--pagina 1--> 
+    <section>
+        <header>
+            <img src="./assets/img/untitled-UI.svg" alt="" class="primeira__imagem">
+        </header>
+        <div class="bemvindo">
+            <h1 class="bemvindo_conteudo_titulo">Welcome back!</h1>
+            <p class="bemvindo_conteudo_texto">Welcome back! Please, Enter your details</p>
+        </div>
+        <form action="" >
+            <div class="card__login">
+                <p class="ckeck_email">Email</p>
                 <input type="text" name="email" placeholder="Enter your email">
-                <p>Password</p>
+                <p class="password">Password</p>
                 <input type="password" name="password" placeholder="********">
-                <div class="forgot-password">
-                    <input type="checkbox" name="Remember">
-                    <p>Remember for 30 days</p>
-                    <p>Forgot password</p>
-                </div>
-                <button class="btn-sign-up">Sign in</button>
-                <button class="btn-sign-up-google">Sign in with google</button>
-                <div class="sign-up">
-                    <p>Don’t have an account?</p>
-                    <p>Sign up</p>
-                </div>
-            </form>
-            <p>© copright 2023. Untitled UI</p>
-        </section>
-        <section class="right">
-            <div class="ellipse">
-                <img src="./assets/img/ellipse.svg" alt="">
-                <img src="./assets/img/Rectangle.svg" alt="">
+                <input type="checkbox" name="Remember">
+                <p>Remember for 30 days</p>
+                <p>Forgot password</p>
             </div>
-        </section>
-        </Section>
+            <button class="btn-sign-up">Sign in</button>
+            <button class="btn-sign-up-google">Sign in with google</button>
+            <div class="sign-up">
+                <p>Don’t have an account?</p>
+                <p>Sign up</p>
+            </div>
+        </form>
+    </section>
+    
+    <section>
+        <div class="ellipse">
+            <img src="./assets/img/ellipse.svg" alt="">
+            <img src="./assets/img/Rectangle.svg" alt="">
+        </div>
+    </Section>
+    
+    <footer class="rodape">
+        <p>© copright 2023. Untitled UI</p>
+    </footer>
 
-    </main>
+   
 
 </body>
 </html>

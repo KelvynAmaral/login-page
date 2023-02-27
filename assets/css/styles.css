@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
+
+
 :root{
 
     --cor-primaria: #ffffff;
-    --cor-secundaria: #7C3CCE;
-    --cor-terciaria: #C08FFF;
+    --cor-secundaria: #7C3CCE,#C08FFF;
+    --cor-terciaria: #909090;
+    --cor-quarternaria: #000000;
     --fonte-principal: 'Inter';
     }
 
@@ -13,20 +16,43 @@
     padding: 0;
 }
 body{
-    position: absolute;
-    width: 540px;
-    height: 768px;
-    left: 0px;
-    top: 0px;
+    width: 1024px;
+    height: 720px;
+    display: grid;
+    grid-template-columns: 70% 30%;
     font-family: var(--fonte-principal);
+    
+}
+.primeira__imagem{
+    padding: 2em;
+}
+ 
+.bemvindo{
+    padding: 3em; 
 }
 
-h1 {
+.bemvindo_conteudo_titulo{
     font-weight: 620;
     font-size: 36px;
+    font-style: normal;
+   
+   
+}
+.bemvindo_conteudo_texto{
+    
+    font-weight: 400;
+    font-size: 26px;
+    color: var(--cor-terciaria);
+    
+
+}
+.card__login{
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 500;
+   
 }
 
-.bemvindo {
-    display: grid;
-    place-content: center;
-}
+
+
+    
