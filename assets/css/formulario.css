@@ -3,7 +3,7 @@
     font-family: var(--fonte-principal);
     font-size: 18px;
     font-weight: 500;
-    margin: 6%; 
+    margin: 5%; 
 }
 
 
@@ -86,4 +86,11 @@
     color: var(--cor-secundaria);
     margin: 0 0 0 2em;
     text-decoration: none;
+}
+.rodape{
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    font-weight: 500;
+    color: #98A0A8;
+    margin-top: 70px;
 }
