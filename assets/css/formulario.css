@@ -1,30 +1,28 @@
+
 .card__login{
     font-family: var(--fonte-principal);
     font-size: 18px;
     font-weight: 500;
-    padding: 5em; 
+    margin: 6%; 
 }
 
-.ckeck_password{
-    padding-bottom: 3%;
-}
 
 .check_email_caixa{
     margin: 1em 0 2em 0;
-    border: 2px solid var(--cor-borda);
+    border: 1px solid var(--cor-borda);
     border-radius: 8px;
     color: var(--cor-terciaria);
     padding: 1em;
-    width: 400px;
+    width: 350px;
 }
 
 .check_email_password{
     margin: 1em 0 2em 0;
-    border: 2px solid var(--cor-borda);
+    border: 1px solid var(--cor-borda);
     border-radius: 8px;
     color: var(--cor-terciaria);
     padding: 1em;
-    width: 400px;
+    width: 350px;
 }
 .checkbox{
     display: flex;
@@ -35,8 +33,9 @@
     margin: 0 0 0 0.5em ;
 }
 .ckeckbox__texto_secundario{
-    margin: 0 0 0 6.5em;
+    margin: 0 0 0 4em;
     color: #7C3CCE;
+    text-decoration: none;
 }
 
 
@@ -48,7 +47,7 @@
     margin: 1em 0 1em 0;
     padding: 10px;
     background: #7C3CCE;
-    width: 430px;
+    width: 380px;
     border-radius: 8px;
 
 }
@@ -63,7 +62,7 @@
     margin: 0 0 1em 0;
     padding: 10px;
     background: var(--cor-primaria);
-    width: 430px;;
+    width: 380px;;
     border-radius: 8px;
 }
 .btn-sign-up-google:hover{
@@ -80,9 +79,11 @@
 }
 .sign_texto{
     color: #7E7E7E;
-    margin: 0 0 0 7em;
+    margin: 0 0 0 8em;
+   
 }
 .sign_texto_secundario{
     color: var(--cor-secundaria);
     margin: 0 0 0 2em;
+    text-decoration: none;
 }

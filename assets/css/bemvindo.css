@@ -1,14 +1,14 @@
-.primeira__imagem{
-    padding-top: 3em;
-    padding-left: 3em;
-}
+
  
 .bemvindo{
-    padding-top: 3em;
-    padding-left: 5em; 
-    font-family: var(--fonte-principal);
-   
-   
+    background-image: url("/assets/img/untitled-UI.svg");
+    background-repeat: no-repeat;
+    margin: 5%;  
+}
+.bemvindo_conteudo{
+    padding-top: 5em;
+    padding-left: 2em; 
+
 }
 
 .bemvindo_conteudo_titulo{
