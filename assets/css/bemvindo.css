@@ -7,10 +7,10 @@ section.bemvindo {
 .bemvindo{
     background-image: url("/assets/img/untitled-UI.svg");
     background-repeat: no-repeat;
-    margin: 5%;
+    margin: 3.5%;
 }
 .bemvindo_conteudo{
-    padding-top: 4.5em;
+    padding-top: 4em;
     padding-left: 2em; 
 
 }
