@@ -1,0 +1,33 @@
+.ellipse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F3F4F8
+}
+
+.img-ellipse {
+    width: 15rem;
+    height: 15rem;
+}
+
+.div-img{
+    position: relative;
+}
+
+.img-rectangle {
+    width: 20rem;
+    backdrop-filter: blur(25px);
+    position: absolute;
+    top: 50%; 
+    left: -15%;
+    z-index: 1;     
+}
+
+/* 
+    Neste caso, a primeira imagem será exibida normalmente e a segunda imagem será sobreposta sobre a primeira imagem.
+    A primeira imagem possui um valor padrão de z-index de 0. Alterando o valor da segunda imagem para z-index: 1 a
+    segunda imagem passa para frente da primeira imagem sobrepondo-a. Para funcionar corretamente tive de declarar 
+    posição relativa para a div-img e posição absoluta para a segunda imagem. Para posicionar a img-rectangle sobre
+    a metade da primeira imagem(ellipse), defini top:50% e left: -15%.
+*/
