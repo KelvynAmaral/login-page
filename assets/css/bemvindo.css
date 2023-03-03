@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root {
+    --fonte-principal: 'Inter';
+}
+
 section.bemvindo {
     display: flex;
     flex-direction: column;
@@ -7,6 +13,7 @@ section.bemvindo {
 .bemvindo{
     background-image: url("/assets/img/untitled-UI.svg");
     background-repeat: no-repeat;
+    background-size: 15%;
     margin: 3.5%;
 }
 .bemvindo_conteudo{
@@ -17,15 +24,15 @@ section.bemvindo {
 
 .bemvindo_conteudo_titulo{
     font-weight: 620;
-    font-size: 36px;
+    font-size: 2.4rem;
     font-style: normal;
-   
-   
+    font-family: var(--fonte-principal);
 }
 .bemvindo_conteudo_texto{
     padding-top: 1em;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 1.4rem;
+    font-family: var(--fonte-principal);
     color: var(--cor-terciaria);
     
 

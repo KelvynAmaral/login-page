@@ -23,17 +23,57 @@ html, body {
     height: 100%;
 }
 
-body{  
-        
+body{      
     display: grid;
     grid-template-columns: 50% 50% 0 0;
     box-sizing: border-box;
     font-family: var(--fonte-principal);
 }
 
+.rodape{
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    font-weight: 500;
+    color: #98A0A8;
+}
+
 @media screen and (max-width: 1366px) and (max-height: 768px) {
     html {
-      zoom: 90%; /* reduz o tamanho de todo o conteúdo da página em 10% */
+      zoom: 85%; /* reduz o tamanho de todo o conteúdo da página em 10% */
+    }
+}
+
+@media (max-width: 768px) {
+    
+    body {
+        display: grid;
+        grid-template-columns: none;
+    }
+
+    .ellipse {
+        display: none;
+    }
+    
+    .card {
+        display: grid;
+        justify-items: center;
+    }
+
+    .card__login {
+        display: grid;
+    }
+    .btn {
+        display: grid;
+    }
+
+    .bemvindo_conteudo_titulo {
+        text-align: center;
+        font-size: 180%;
+    }
+
+    .bemvindo_conteudo_texto {
+        text-align: center;
+        font-size: 160%;
     }
 }
   
