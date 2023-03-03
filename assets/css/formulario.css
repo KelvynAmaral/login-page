@@ -95,10 +95,3 @@
     text-decoration: none;
 }
 
-.rodape{
-    font-family: var(--fonte-principal);
-    font-size: 12px;
-    font-weight: 500;
-    color: #98A0A8;
-    margin-top: 70px;
-}
